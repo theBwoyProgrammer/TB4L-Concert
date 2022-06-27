@@ -93,10 +93,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 53px;
     font-weight: bolder;
-    color: crimson;
-    background: -webkit-linear-gradient(rgb(220, 14, 210), rgb(175, 63, 227));
-   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+    color: #ec5242;
   }
 
   .codesquare {
@@ -113,7 +110,7 @@
     color: rgb(85, 85, 81);
     line-height: 40px;
    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-   border: rgb(228, 191, 27) 2px solid;
+   border: #d3d3d3 2px solid;
    border-radius: 10px;
    padding-left: 20px;
    padding-right: 20px;
@@ -138,6 +135,40 @@
     font-weight: bold;
     cursor: pointer;
 
+  }
+
+  .Aboutpage {
+    background-color: white;
+    margin-top: 2rem;
+  }
+
+  .abouttext {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #272a31;
+  }
+
+  .p-2 {
+    margin-top: 10%;
+    margin-left: 2rem;
+    text-align: center;
+    width: 70%;
+    gap: 10px;
+    background-color: white;
+    color: rgb(85, 85, 81);
+    line-height: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+  .logo-img {
+   margin-left: 5rem;
+   border: whitesmoke 2px solid;
+   margin-bottom: 2rem;
   }
 }
 
