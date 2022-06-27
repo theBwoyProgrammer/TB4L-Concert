@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+
+@media only screen and (max-width: 768px) {
+  * {
+    margin: 0;
+    padding: 0;
+  }
+
+  .nav-top-desk {
+    display: none;
+  }
+
+  #navbar {
+    padding: 2rem;
+    font-size: 25px;
+    font-weight: bolder;
+    display: flex;
+    margin-top: 0;
+    left: 0;
+    right: 0;
+    height: 72px;
+    max-width: 88%;
+  }
+
+  #navbar ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin-top: 0;
+    list-style-type: none;
+  }
+
+  .ham {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #000;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    /* margin-right: -19px; */
+    z-index: 300;
+  }
+
+  .hamburger.active .ham:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .ham:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .ham:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .menu-3 {
+    position: absolute;
+    top: 0;
+    left: -100%;
+    gap: 0;
+    flex-direction: column;
+    text-align: start;
+    transition: 1s;
+    width: 85%;
+    justify-content: center;
+    margin-right: 200px;
+    z-index: 200;
+    background-color: #fff;
+    height: 100%;
+  }
+
+  .menu-3 a {
+    text-decoration: none;
+    color: #172b4d;
+  }
+
+  .menu-3.active {
+    left: 0%;
+  }
+}
+
