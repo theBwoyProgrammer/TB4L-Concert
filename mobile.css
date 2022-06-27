@@ -6,6 +6,10 @@
     padding: 0;
   }
 
+  body {
+    background-color: whitesmoke;
+  }
+
   .nav-top-desk {
     display: none;
   }
@@ -61,15 +65,15 @@
 
   .menu-3 {
     position: absolute;
-    top: 0;
-    left: -100%;
+    left: 0;
+    top: -100%;
     gap: 0;
     flex-direction: column;
-    text-align: start;
+    text-align: center;
     transition: 1s;
-    width: 85%;
+    width: 100%;
     justify-content: center;
-    margin-right: 200px;
+    /* margin-left: 35%; */
     z-index: 200;
     background-color: #fff;
     height: 100%;
@@ -81,7 +85,59 @@
   }
 
   .menu-3.active {
-    left: 0%;
+    top: 0%;
+  }
+
+  .headertext {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 53px;
+    font-weight: bolder;
+    color: crimson;
+    background: -webkit-linear-gradient(rgb(220, 14, 210), rgb(175, 63, 227));
+   -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  }
+
+  .codesquare {
+    width: -10%;
+  }
+
+  .p-1 {
+    margin-top: 20%;
+    margin-left: 2rem;
+    text-align: center;
+    width: 70%;
+    gap: 10px;
+    background-color: white;
+    color: rgb(85, 85, 81);
+    line-height: 40px;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   border: rgb(228, 191, 27) 2px solid;
+   border-radius: 10px;
+   padding-left: 20px;
+   padding-right: 20px;
+  }
+
+  .home-footer {
+    margin-top: 2rem;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(89, 86, 86);
+  }
+
+  .contact-info {
+    margin-top: 2rem;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+
   }
 }
 
