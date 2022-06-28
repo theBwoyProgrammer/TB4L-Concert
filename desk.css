@@ -1,18 +1,18 @@
 @media only screen and (min-width: 768px) {
-    .nav-top-desk {
-      display: block;
-    }
-  
-    #navbar {
-      display: none;
-    }
-  
-    .up-nav {
-      list-style-type: none;
-      display: flex;
-      flex-direction: row-reverse;
-      font-size: larger;
-      font-family: Georgia, 'Times New Roman', Times, serif;
-      gap: 10px;
-    }
+  .nav-top-desk {
+    display: block;
   }
+
+  #navbar {
+    display: none;
+  }
+
+  .up-nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    gap: 10px;
+  }
+}
