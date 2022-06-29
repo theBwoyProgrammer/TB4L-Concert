@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./Assets/TRAPBW.png" type="image/x-icon">
     <link rel="stylesheet" href="desk.css">
     <link rel="stylesheet" href="mobile.css">
     <title>TB4L Concert</title>
@@ -24,15 +25,35 @@
     </nav>
     <div class="nav-top-desk">
         <ul class="up-nav">
-            <li><img src="./Assets/facebook.svg" alt="facebook"></li>
-            <li><img src="./Assets/twitter.svg" alt="twitter"></li>
-            <li><img src=".Assets/instagram.svg" alt="instagram"></li>
-            <li>Hamxie</li>
-            <li>My Page</li>
-            <li>Contact</li>
-        </ul>
+            <li>Past Concerts</li>
+            <li>About</li>
+            <li>Home</li>
+            <li>
+                <a href=""><i class="bi bi-facebook"></i></a>
+            </li>
+            <li>
+                <a href=""><i class="bi bi-twitter"></i></a>
+            </li>
+       </ul>
      </div> 
-    <section class="homepage" id="Home">
+     <div class="nav-desk">
+       <a href="#Home"><img src="./Assets/HATIMDEV-HE.png" class="HE" alt=""></a>
+        <ul class="nav-ul">
+            <li>Home</li>
+            <li>About</li>
+            <li>Partners</li>
+            <li>Past Concerts</li>
+        </ul>
+       <button class="grab">Grab Tickets</button>
+     </div>
+     <div id="Home" class="homeheart">
+        <img src="./Assets/house.png" class="heart" alt="icon">
+        <span class="arrow">></span>
+        Merch
+        <span class="arrow">></span>
+        Order
+     </div>
+    <section class="homepage" id="Homepage">
     <header class="headertext">THE TB4L MENACE ORDER CONCERT 2022</header>
     <div class="bottom-line"> </div>
     <div class="p-div">
@@ -63,7 +84,7 @@
 <section class="Aboutpage" id="about">
 <header class="abouttext">Creative Commons TB4L logo</header>
 <div class="bottom-line"> </div>
-<p class="p-2"> The trapbwoyz logo was decided thru design competitions on the 12th May 2021</p>
+<p class="p-2"> The trapbwoyz logo was decided thru design competitions on the 12th May 2021. After an online voting from the community, Norwack's logo was annouced the winner and it has been our icon from then. All right reserved</p>
 <img src="./Assets/logotb4l.png" class="logo-img" alt="logo">
 <div class="pageend"></div>
 </section>
@@ -73,21 +94,23 @@
         See the past of TB4L Menace Concerts
     </header>
     <div class="bottom-line"> </div>
-    <p class="p-3">Take a look at the last two TB4L Menace Concerts to take place in Atlanta and Brooklyn</p>
+    <p class="p-3">Take a look at the last two TB4L Menace Concerts to take place in Atlanta and Brooklyn. It was massive in all those locations whereby the crowd was 8M total. We thank y'all for loving 😘😘 the Trapbwoyz. Let's keep up the spirit this time too.</p>
+    <div class="allimg">
     <div class="pastimgtxt">
-       <img src="./Assets/rap.jpg" alt="rap"> 
-       <div class="pasttxt">
+       <img src="./Assets/rap.jpg" class="rap1" alt="rap"> 
+       <div class="pasttxt" id="pasttxt1">
         <div class="subtxt">2020</div>
         <div class="subtxt2">TB4L Menace Concert in Atlanta</div>
        </div>
     </div>
     <div class="pastimgtxt">
-        <img src="./Assets/con1.jpg" alt="rap"> 
-        <div class="pasttxt">
+        <img src="./Assets/con1.jpg" class="rap2" alt="rap"> 
+        <div class="pasttxt" id="pasttxt2">
          <div class="subtxt">2021</div>
          <div class="subtxt2">TB4L Menace Concert in Brooklyn</div>
         </div>
      </div>
+    </div>
 </section>
 <div class="partners">
     <header class="partnerwrd">Partners</header>
@@ -102,7 +125,10 @@
     </ul>
 </div>
 <div class="final">
-    <img src="./Assets/HATIMDEV-HE.png" class="hatim" alt="">
+    <small class="rights">
+    <img src="./Assets/HATIMDEV-HE.png" class="hatim" alt="logo">
+    <img src="./Assets/TRAPB.png" class="trapbw" alt="logo">
+</small>
     <p class="p-4">2022 HatimDev-HE Rights Reserved</p>
 </div>
 <script src="mobile.js"></script>

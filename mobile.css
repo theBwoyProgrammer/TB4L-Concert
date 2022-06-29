@@ -5,6 +5,7 @@ body {
   background-color: whitesmoke;
   font-family: 'Lato', sans-serif;
   overflow-x: hidden;
+  width: 100vw;
 }
 
 @media only screen and (max-width: 768px) {
@@ -14,6 +15,10 @@ body {
   }
 
   .nav-top-desk {
+    display: none;
+  }
+
+  .nav-desk {
     display: none;
   }
 
@@ -38,6 +43,10 @@ body {
     gap: 1.5rem;
     margin-top: 0;
     list-style-type: none;
+  }
+
+  .homeheart {
+    display: none;
   }
 
   .ham {
@@ -105,6 +114,10 @@ body {
     font-size: 45px;
     font-weight: bolder;
     color: #ec5242;
+  }
+
+  .trapbw {
+    display: none;
   }
 
   .pageend {
