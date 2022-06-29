@@ -26,8 +26,8 @@ body {
     margin-top: 0;
     left: 0;
     right: 0;
-    height: 72px;
-    max-width: 88%;
+    height: 4.5rem;
+    max-width: 0.88rem;
 
     /* position: absolute; */
   }
@@ -35,16 +35,16 @@ body {
   #navbar ul li {
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 1.5rem;
     margin-top: 0;
     list-style-type: none;
   }
 
   .ham {
     display: block;
-    width: 25px;
-    height: 3px;
-    margin: 5px auto;
+    width: 1.563rem;
+    height: 0.188rem;
+    margin: 0.313rem auto;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     background-color: #000;
@@ -53,8 +53,6 @@ body {
   .hamburger {
     display: block;
     cursor: pointer;
-
-    /* margin-right: -19px; */
     z-index: 300;
   }
 
@@ -63,11 +61,11 @@ body {
   }
 
   .hamburger.active .ham:nth-child(1) {
-    transform: translateY(8px) rotate(45deg);
+    transform: translateY(0.5rem) rotate(45deg);
   }
 
   .hamburger.active .ham:nth-child(3) {
-    transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-0.5rem) rotate(-45deg);
   }
 
   .menu-3 {
@@ -84,8 +82,6 @@ body {
     background-color: rgba(255, 255, 255, 1);
     height: 100%;
     padding-top: 4rem;
-
-    /* margin-top: -4rem; */
   }
 
   .menu-3 a {
@@ -111,8 +107,10 @@ body {
     color: #ec5242;
   }
 
-  .codesquare {
-    width: -10%;
+  .pageend {
+    width: 100%;
+    border: #d3d3d3 1px solid;
+    margin-top: 1rem;
   }
 
   .bottom-line {
