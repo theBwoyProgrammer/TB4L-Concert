@@ -51,7 +51,8 @@ body {
   }
 
   .homepagehome {
-    background-image: url(./Assets/bg.png);
+    background-image: url(./Assets/dry.png);
+  background-position: 8% 168%;
     background-repeat: no-repeat;
     height: 120vh;
   }
@@ -198,16 +199,24 @@ body {
 
 .join {
   align-items: center;
-  margin-top: 2rem;
-  height: 6%;
-  font-size: 2rem;
-  font-weight: 1rem;
+  width: auto;
+  margin: auto;
+  padding: 1.5rem;
+  font-size: 1rem;
   color: #fff;
   border: #ec5242 solid 2px;
   background-color: #ec5242;
   border-radius: 2px;
   cursor: pointer;
   opacity: 3;
+}
+
+.prog-act {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  margin: 0;
 }
 
 .join:hover {
@@ -517,4 +526,64 @@ body {
     margin: 0;
     padding: 0;
   }
+
+  .speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+    margin: auto;
+    padding: 1rem 1rem;
+    height: auto;
+    background-color: #fff;
+    width: 100vw;
+  }
+
+  .performer-para {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bolder;
+    color: #272a31;
+  }
+
+  .p-holder {
+    display: flex;
+    flex-direction: column;
+    font-style: italic;
+    color: #ec5242;
+    font-size: 16px;
+    font-weight: 0rem;
+  }
+
+  .p-h1 {
+    display: flex;
+    flex-direction: column;
+    font-size: 19px;
+    font-weight: 0rem;
+  }
+
+  .speaker-div {
+    padding-top: 1rem;
+    padding-right: 1rem;
+    gap: 2rem;
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+  
+     }
+    
+      .speakers img {
+        width: 6rem;
+        height: 6rem;
+      }
+    
+      h6 {
+        font-size: 20px;
+      }
+
+      .subdiv {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-right: 0.8rem;
+      }
 }
