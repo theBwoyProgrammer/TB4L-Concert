@@ -2,11 +2,13 @@
 
 # Project Name
 
-> Capstone Project
+> TB4L Concert(Capstone-1)
 
 ## About Project
 
-In this project, i made a capstone project.
+In this project, i built a concert website and added two pages.
+
+[Live demo](https://hatimdev-he.github.io/TB4L-Concert/)
 
 ## Built With
 
@@ -24,7 +26,7 @@ In this project, i made a capstone project.
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
-Star this project and follow me for more.
+Star this project and follow me for more content.
 
 Feel free to check the [issues page](../../issues/).
 
@@ -34,9 +36,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Cindy Shin: I used his design from Behance. Thank you so much for that design.
 
 ## 📝 License
 
