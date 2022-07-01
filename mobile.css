@@ -540,6 +540,7 @@ body {
     width: auto;
     margin-top: 2rem;
     margin-left: 4.7rem;
+    margin-right: 3rem;
     list-style-type: none;
     font-weight: 3rem;
     font-size: 1.4rem;
@@ -552,7 +553,7 @@ body {
     width: auto;
     align-items: center;
     margin-top: 2rem;
-    margin-left: 2rem;
+    margin-right: 3rem;
     list-style-type: none;
     font-weight: 3rem;
     font-size: 1.4rem;
