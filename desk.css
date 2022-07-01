@@ -138,6 +138,8 @@
     font-weight: bolder;
     /* color: #ec5242; */
     background: -webkit-linear-gradient(#ec5242, #dc4607);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     padding-top: 15rem;
     width: 70%;
     padding-left: 11rem;

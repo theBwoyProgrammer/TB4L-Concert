@@ -63,6 +63,8 @@ body {
     font-size: 40px;
     font-weight: bolder;
     background: -webkit-linear-gradient(#ec5242, #dc4607);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
     padding-top: 7rem;
     width: 70%;
     padding-left: 2rem;
