@@ -22,7 +22,12 @@ link.forEach((e) => {
     }
   });
 });
-// const menu = document.querySelector('.menu-3');
-// menu.addEventListener('click', () => {
-//   menu.classList.remove('active');
-// });
+
+// const myProjects = [
+//   {
+//     image: '',
+//     name: 'Goodboy Kimmie',
+//     heading: 'Lorem ipsum, or lipsum as it is sometimes known, is dummy',
+//     heading1: 'text used in laying out print, graphic or web designs. The passage is',
+//   },
+// ];
