@@ -66,10 +66,13 @@ const main = document.querySelector('main');
 const section = document.createElement('section');
 section.setAttribute('class', 'speakers');
 const div = document.createElement('div');
+const hamx = document.createElement('span');
+hamx.setAttribute('class', 'bottomline-2');
 div.className = 'speaker-div';
 const header = document.createElement('h5');
 header.setAttribute('class', 'speakerheader');
 header.innerHTML = 'Featured Speakers';
+section.append(header, hamx);
 main.append(section);
 
 for (let i = 0; i <= myProjects.length; i += 1) {

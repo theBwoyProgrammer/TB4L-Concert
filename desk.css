@@ -126,6 +126,10 @@
   }
 
   .homeheadertext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
     padding-top: 180px;
     text-align: left;
     font-family: 'COCOGOOSE', sans-serif;
@@ -137,6 +141,16 @@
     -webkit-text-fill-color: transparent;
     width: 70%;
     padding-left: 11rem;
+  }
+
+  .home1 {
+    font-family: 'Lato', sans-serif;
+    font-size: 30px;
+    font-weight: 3rem;
+    background: -webkit-linear-gradient(#ec5242, #dc4607);
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .homep-div {
@@ -179,18 +193,18 @@
   }
 
   .bottom-line1 {
-    width: 3%;
+    width: 2.5%;
     border: #ec5242 solid 2px;
-    margin-left: 41rem;
+    margin-right: 4rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
-    border-radius: 20px;
   }
 
-  .bottom-line2 {
+  .bottomline-2 {
+    align-self: center;
     width: 3%;
     border: #ec5242 solid 2px;
-    margin-left: 42rem;
+    margin-right: 5rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -199,16 +213,17 @@
   .bottom-line3 {
     width: 3%;
     border: #ec5242 solid 2px;
-    margin-left: 44rem;
+    margin-right: 1rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 20px;
   }
 
   .bottom-line4 {
+    align-self: center;
     width: 3%;
     border: #ec5242 solid 2px;
-    margin-left: 44rem;
+    margin-left: 43rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -217,7 +232,7 @@
   .bottom-line5 {
     width: 3%;
     border: #ec5242 solid 2px;
-    margin-left: 44rem;
+    margin-left: 45rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -235,7 +250,6 @@
   .bottom-line7 {
     width: 3%;
     border: #ec5242 solid 2px;
-    margin-left: 44rem;
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -343,8 +357,9 @@
   }
 
   .past {
+    height: 40rem;
     background-color: white;
-    margin-bottom: 4rem;
+    padding-bottom: 3rem;
   }
 
   .pasttext {
@@ -370,10 +385,10 @@
   }
 
   .pastimgtxt {
+    height: auto;
     position: relative;
     text-align: center;
     color: #fff;
-    margin-bottom: 2rem;
   }
 
   .rap1 {
@@ -403,9 +418,11 @@
   .main-program {
     background-color: rgba(0, 0, 0, 0.8);
     display: flex;
+    padding: 2rem 12rem;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     flex-wrap: wrap;
-    padding: 3rem;
   }
 
   #pasttxt1 {
@@ -442,7 +459,6 @@
   }
 
   #see-btn a {
-    align-self: center;
     width: 100vw;
     margin-left: 40%;
     color: #fff;
@@ -495,13 +511,17 @@
   }
 
   .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     background-color: #272a31;
     text-align: center;
   }
 
   .partnerwrd {
     text-align: center;
-    font-size: 50px;
+    font-size: 47px;
     font-weight: bolder;
     color: #fff;
     padding-top: 2rem;
@@ -510,15 +530,13 @@
 
   .partnerul {
     display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin-top: 2rem;
-    margin-left: 36rem;
+    margin-left: 6rem;
     list-style-type: none;
     font-weight: 3rem;
     font-size: 2rem;
     color: #d3d3d3;
-    gap: 2.5rem;
+    gap: 3rem;
+    padding-right: 12rem;
   }
 
   .partn2 {
@@ -603,13 +621,17 @@
   }
 
   .speakers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     height: auto;
     background-color: #fff;
     width: 100vw;
     padding-bottom: 3rem;
   }
 
-  .performer-para {
+  .speakerheader {
     text-align: center;
     font-size: 50px;
     font-weight: bolder;
