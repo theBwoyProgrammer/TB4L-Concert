@@ -513,7 +513,7 @@
     flex-direction: row;
     width: 100%;
     margin-top: 2rem;
-    margin-left: 33rem;
+    margin-left: 36rem;
     list-style-type: none;
     font-weight: 3rem;
     font-size: 2rem;
@@ -526,7 +526,7 @@
     width: 100%;
     align-items: center;
     margin-top: 2rem;
-    margin-left: 4rem;
+    margin-left: 7rem;
     list-style-type: none;
     font-weight: 3rem;
     font-size: 1.4rem;
@@ -543,7 +543,7 @@
   }
 
   .li-4 {
-    margin-right: 36rem;
+    margin-right: 44rem;
     padding: 0;
   }
 
