@@ -118,7 +118,7 @@ body {
 
   .pro-header {
     text-align: center;
-    font-size: 30px;
+    font-size: 24px;
     font-weight: bolder;
     color: #d3d3d3;
     padding-right: 3rem;
@@ -314,9 +314,9 @@ body {
 
   .bottomline-2 {
     align-self: center;
-    width: 3%;
+    width: 4%;
     border: #ec5242 solid 2px;
-    margin-right: 5rem;
+    /* margin-right: 5rem; */
     margin-top: 1.5rem;
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -359,14 +359,6 @@ body {
     border-radius: 20px;
   }
 
-  .bottom-line7 {
-    width: 3%;
-    border: #ec5242 solid 2px;
-    margin-left: 11rem;
-    margin-top: 1.5rem;
-    margin-bottom: 2rem;
-    border-radius: 20px;
-  }
 
   .p-1 {
     margin-top: 20%;
@@ -496,6 +488,10 @@ body {
   }
 
   .partners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
     background-color: #272a31;
     text-align: center;
   }
