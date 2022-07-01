@@ -123,7 +123,6 @@
     margin-top: 3rem;
     width: 50%;
     margin-left: 22rem;
-
   }
 
   .homeheadertext {
@@ -132,56 +131,52 @@
     font-family: 'COCOGOOSE', sans-serif;
     font-size: 60px;
     font-weight: bolder;
-    /* color: #ec5242; */
     background: -webkit-linear-gradient(#ec5242, #dc4607);
     background-clip: border-box;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-    padding-top: 15rem;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     width: 70%;
     padding-left: 11rem;
   }
 
-.homep-div {
-  
-  margin-left: 11rem;
-  text-align: center;
-  width: 70%;
-  /* background-color: rgba(211,211,211,0.7);; */
-  padding-left: 20px;
-  padding-right: 20px;
-  height: 9rem;
-}
+  .homep-div {
+    margin-left: 11rem;
+    text-align: center;
+    width: 70%;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 9rem;
+  }
 
-.homep-1 {
-  border: rgba(255, 255, 255, 10) 3px solid;
-  padding: 2rem;
-  margin-left: 0;
+  .homep-1 {
+    border: rgba(255, 255, 255, 10) 3px solid;
+    padding: 2rem;
+    margin-left: 0;
     margin-top: 2rem;
     text-align: left;
     width: 50%;
     line-height: 30px;
     opacity: 1;
-   background-color: #f5f5f5;
+    background-color: #f5f5f5;
+  }
 
-}
+  .homepagehome {
+    background-image: url(./Assets/dry.png);
+    background-position: 28% 168%;
+    background-repeat: no-repeat;
+    height: 120vh;
+  }
 
-.homepagehome {
-  background-image: url(./Assets/dry.png);
-  background-position: 28% 168%;
-  background-repeat: no-repeat;
-  height: 120vh;
-}
-.back {
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 3;
-  width: 100vw;
-  height: 120vh;
-  background-color: rgba(211,211,211,0.7);
-  mix-blend-mode: multiply;
-}
+  .back {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 3;
+    width: 100vw;
+    height: 120vh;
+    background-color: rgba(211, 211, 211, 0.7);
+    mix-blend-mode: multiply;
+  }
 
   .bottom-line1 {
     width: 3%;
@@ -191,6 +186,7 @@
     margin-bottom: 2rem;
     border-radius: 20px;
   }
+
   .bottom-line2 {
     width: 3%;
     border: #ec5242 solid 2px;
@@ -275,7 +271,6 @@
   }
 
   .home-footerhome {
-    /* margin-top: 2rem; */
     text-align: left;
     margin-left: 11rem;
     font-weight: bold;
@@ -285,13 +280,10 @@
 
   .venue {
     margin-left: 11rem;
-    /* margin-top: 1rem; */
     text-align: left;
-    /* width: 70%; */
     font-size: 1.4rem;
     font-weight: 5rem;
     color: rgb(85, 85, 81);
-    /* line-height: 60px; */
   }
 
   .contact-info {
@@ -305,13 +297,12 @@
     cursor: pointer;
   }
 
-.twoplace {
-  display: flex;
-  flex-direction: column;
-  padding-top: 2rem;
-  gap: 2rem;
- 
-}
+  .twoplace {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    gap: 2rem;
+  }
 
   .Aboutpage {
     background-color: white;
@@ -410,7 +401,7 @@
   }
 
   .main-program {
-    background-color: rgba(0,0,0,0.8);
+    background-color: rgba(0, 0, 0, 0.8);
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -435,7 +426,7 @@
     margin-right: 0.5rem;
     margin-bottom: 4rem;
     padding: 2rem;
-    background-color: rgba(211,211,211,0.1);
+    background-color: rgba(211, 211, 211, 0.1);
   }
 
   .pro-act-li {
@@ -444,6 +435,10 @@
     width: 100%;
     align-items: center;
     justify-content: center;
+  }
+
+  .nav-ul li a {
+    text-decoration: none;
   }
 
   #see-btn a {
@@ -469,19 +464,18 @@
   .pro-name {
     align-self: center;
     color: #ec5242;
-    font-size:1.52rem;
+    font-size: 1.52rem;
     font-weight: 2rem;
     bottom: 5rem;
   }
 
   .pro-decrp {
- color: #fff;
+    color: #fff;
   }
 
   .lecture-img {
     width: 50%;
-  padding-bottom: 1rem;
-    
+    padding-bottom: 1rem;
   }
 
   #pasttxt2 {
@@ -603,15 +597,9 @@
     padding: 0;
     margin: -1rem 0 1rem 0;
     margin-left: 17rem;
-
-    /* margin-bottom: 4rem; */
   }
 
   .aboutlink {
-    text-decoration: none;
-  }
-
-  .nav-ul li a {
     text-decoration: none;
   }
 
@@ -637,7 +625,7 @@
     width: 60%;
     color: #ec5242;
     font-size: 19px;
-    font-weight: 0rem;
+    font-weight: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
 
@@ -646,18 +634,18 @@
     flex-direction: column;
     width: 60%;
     font-size: 19px;
-    font-weight: 0rem;
+    font-weight: 0;
     font-family: Arial, Helvetica, sans-serif;
   }
 
- .speaker-div {
-display: grid;
-grid-template-columns: 0.4fr 1fr 0.4fr 1fr;
-width: 80%;
-gap: 4rem;
-margin-left: 10rem;
-padding-top: 3rem;
- }
+  .speaker-div {
+    display: grid;
+    grid-template-columns: 0.4fr 1fr 0.4fr 1fr;
+    width: 80%;
+    gap: 4rem;
+    margin-left: 10rem;
+    padding-top: 3rem;
+  }
 
   .speakers img {
     width: 10rem;
