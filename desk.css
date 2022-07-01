@@ -607,6 +607,7 @@
     height: auto;
     background-color: #fff;
     width: 100vw;
+    padding-bottom: 3rem;
   }
 
   .performer-para {
@@ -654,5 +655,12 @@
 
   h6 {
     font-size: 20px;
+  }
+
+  .subdiv {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-right: 0.8rem;
   }
 }
