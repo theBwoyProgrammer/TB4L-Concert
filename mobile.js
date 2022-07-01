@@ -71,7 +71,7 @@ hamx.setAttribute('class', 'bottomline-2');
 div.className = 'speaker-div';
 const header = document.createElement('h5');
 header.setAttribute('class', 'speakerheader');
-header.innerHTML = 'Featured Speakers';
+header.innerHTML = 'Featured Performers';
 section.append(header, hamx);
 main.append(section);
 

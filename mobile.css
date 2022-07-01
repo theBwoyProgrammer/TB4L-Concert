@@ -630,6 +630,16 @@ body {
     height: 6rem;
   }
 
+  .speakerheader {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    color: #272a31;
+    /* padding-top: 2rem; */
+    padding-left: 1.5rem;
+    margin-right: 2rem;
+  }
+
   h6 {
     font-size: 20px;
   }
