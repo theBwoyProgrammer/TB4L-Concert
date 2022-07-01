@@ -316,6 +316,7 @@ body {
     align-self: center;
     width: 4%;
     border: #ec5242 solid 2px;
+
     /* margin-right: 5rem; */
     margin-top: 1.5rem;
     margin-bottom: 2rem;
@@ -358,7 +359,6 @@ body {
     margin-bottom: 2rem;
     border-radius: 20px;
   }
-
 
   .p-1 {
     margin-top: 20%;
