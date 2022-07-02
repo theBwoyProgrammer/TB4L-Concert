@@ -51,7 +51,8 @@ body {
     background-image: url(./Assets/dry.png);
     background-position: 8% 168%;
     background-repeat: no-repeat;
-    height: 120vh;
+    height: auto;
+    padding-bottom: 3rem;
   }
 
   .homeheadertext {

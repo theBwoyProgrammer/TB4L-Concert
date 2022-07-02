@@ -39,6 +39,10 @@
     margin-top: 0.6rem;
   }
 
+  .up-nav li a {
+    text-decoration: none;
+  }
+
   .up-nav a .bi {
     color: #fff;
   }
@@ -175,6 +179,7 @@
   }
 
   .homepagehome {
+    padding-left: 10rem;
     background-image: url(./Assets/dry.png);
     background-position: 28% 168%;
     background-repeat: no-repeat;
