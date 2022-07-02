@@ -10,7 +10,7 @@ In this project, i built a concert website and added two pages.
 
 [Live demo](https://hatimdev-he.github.io/TB4L-Concert/)
 
-[Video Distribution](https://www.loom.com/share/f40bf2e23f3f46f4b8ab6020c18a8c20)
+[Video Description](https://drive.google.com/file/d/1v5gr2gB9hewtTL7fyJHdij4PdVPas-5r/view?usp=sharing)
 
 ## Built With
 
