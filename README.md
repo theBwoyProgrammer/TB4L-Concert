@@ -20,8 +20,8 @@ In this project, i built a concert website and added two pages.
 
 👤 **Hatim Eddinani**
 
-- GitHub: [@HatimDev-HE](https://github.com/githubhandle)
-- Twitter: [@HatimDev](https://twitter.com/twitterhandle)
+- GitHub: [@theBwoyProgrammer](https://github.com/theBwoyProgrammer)
+- Twitter: [@the_BwoyPrgrmmr](https://twitter.com/the_BwoyPrgrmmr)
 
 ## 🤝 Contributing
 
