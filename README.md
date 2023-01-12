@@ -1,12 +1,10 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/theBwoyProgrammer-blueviolet)
 
-# Project Name
-
-> TB4L Concert(Capstone-1)
+# TB4L Concert
 
 ## About Project
 
-In this project, i built a concert website and added two pages.
+This is a static app designed for a concert which was to take place. This website was built with HTML/CSS and JavaScript
 
 [Live demo](https://hatimdev-he.github.io/TB4L-Concert/)
 
