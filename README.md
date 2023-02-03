@@ -153,6 +153,6 @@ If you like this project, don't forget to leave a star and follow me for more op
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/theBwoyProgrammer/TB4L-Concert/blob/development/LICENCE) licensed.
+This project is [MIT](https://github.com/theBwoyProgrammer/TB4L-Concert/blob/e56a1963993f5eba410c0866025e9973be36f9b5/LICENCE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
