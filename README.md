@@ -1,46 +1,158 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+<a name="readme-top"></a>
 
-# Project Name
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+  <img src="public/icons/mylogo.png" alt="logo" width="480"  height="auto" />
+  <br/>
 
-> TB4L Concert(Capstone-1)
+  <h3><b>TB4L-Concert README</b></h3>
 
-## About Project
+</div>
 
-In this project, i built a concert website and added two pages.
+<!-- TABLE OF CONTENTS -->
 
-[Live demo](https://hatimdev-he.github.io/TB4L-Concert/)
+# 📗 Table of Contents
 
-[Video Distribution](https://www.loom.com/share/f40bf2e23f3f46f4b8ab6020c18a8c20)
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Tech Stack](#tech-stack)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show your support](#support)
+- [🙏 Acknowledgements](#acknowledgements)
+- [❓ FAQ (OPTIONAL)](#faq)
+- [📝 License](#license)
 
-## Built With
+<!-- PROJECT DESCRIPTION -->
 
-- Major languages-HTML/CSS/Javascript
-- Frameworks-N/A
-- Technologies used-HTML/CSS/JS
+# 📖 TB4L-Concert <a name="about-project"></a>
 
-## Authors
+> This is a static app designed for a concert which was to take place. This website was built with HTML/CSS and JavaScript
+
+## 🛠 Built With <a name="built-with"></a>
+
+### Tech Stack <a name="tech-stack"></a>
+
+<details>
+  <summary>Client</summary>
+  <ul>
+    <li><a href="https://html.com/">HTML</a></li>
+    <li><a href="https://www.w3.org/Style/CSS">CSS</a></li>
+    <li><a href="https://www.javascript.com/">JavaScript</a></li>
+  </ul>
+</details>
+
+<!-- Features -->
+
+### Key Features <a name="key-features"></a>
+
+> This is a static app designed to only showcase data;
+
+- **Features coming soon**
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LIVE DEMO -->
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://thebwoyprogrammer.github.io/TB4L-Concert/)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- GETTING STARTED -->
+
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get a local copy up and running, follow these steps.
+
+### Prerequisites
+
+In order to run this project you need:
+
+- NodeJS environment
+- Preferred IDE
+- Live Server
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```sh
+  git clone https://github.com/theBwoyProgrammer/TB4L-Concert.git
+  cd TB4L-Concert
+```
+
+### Install
+
+Install this project with:
+
+```sh
+  npm install
+```
+
+### Usage
+
+To run the project, execute;
+
+```sh
+  Run the live server
+```
+
+### Deployment
+
+You can deploy this project using:
+
+```sh
+   You can deploy the project using vercel or any preferred hosting service provider
+```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- AUTHORS -->
+
+## 👥 Authors <a name="authors"></a>
 
 👤 **Hatim Eddinani**
 
-- GitHub: [@HatimDev-HE](https://github.com/githubhandle)
-- Twitter: [@HatimDev](https://twitter.com/twitterhandle)
+- GitHub: [@theBwoyProgrammer](https://github.com/theBwoyProgrammer)
+- Twitter: [@the_BwoyPrgrmmr](https://twitter.com/the_BwoyPrgrmmr)
+- LinkedIn: [Hatim Eddinani](https://www.linkedin.com/in/hatimdev/)
 
-## 🤝 Contributing
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTRIBUTING -->
+
+## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Star this project and follow me for more content.
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/theBwoyProgrammer/TB4L-Concert/issues).
 
-## Show your support
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-Give a ⭐️ if you like this project!
+<!-- SUPPORT -->
 
-## Acknowledgments
+## ⭐️ Show your support <a name="support"></a>
 
-- Cindy Shin: I used his design from Behance. Thank you so much for that design.
+If you like this project, don't forget to leave a star and follow me for more open source projects
 
-## 📝 License
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-This project is [MIT](./MIT.md) licensed.
+<!-- LICENSE -->
 
+## 📝 License <a name="license"></a>
+
+This project is [MIT](https://github.com/theBwoyProgrammer/TB4L-Concert/blob/development/LICENCE) licensed.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
